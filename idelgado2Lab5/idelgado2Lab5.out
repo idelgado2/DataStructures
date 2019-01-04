@@ -1,0 +1,17 @@
+Infix Expression from file testData.txt
+
+Infix: A + B - C;
+Postfix: AB+C-
+
+Infix: (A + B) * C;
+Postfix: AB+C*
+
+Infix: (A + B) * (C - D);
+Postfix: AB+CD-*
+
+Infix: A + ((B + C) * (E - F) - G) / (H - I);
+Postfix: ABC+EF-*G-HI-/+
+
+Infix: A + B * (C + D) - E / F * G + H;
+Postfix: ABCD+*+EF/G*-H+
+
